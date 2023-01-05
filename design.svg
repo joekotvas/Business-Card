@@ -1,0 +1,26 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="2.097in" height="2.111in">
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(147,220,255)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(181,239,255)" stop-opacity="1" />
+</linearGradient>
+<linearGradient id="PSgrad_1" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(0,149,255)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(0,157,255)" stop-opacity="1" />
+</linearGradient>
+<linearGradient id="PSgrad_2" x1="0%" x2="0%" y1="100%" y2="0%">
+  <stop offset="0%" stop-color="rgb(0,159,255)" stop-opacity="1" />
+  <stop offset="100%" stop-color="rgb(0,182,255)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<path fill-rule="evenodd"  fill="url(#PSgrad_0)"
+ d="M42.118,139.897 C9.553,118.713 0.336,75.154 21.532,42.606 C42.727,10.058 86.309,0.846 118.873,22.031 C151.438,43.215 160.655,86.774 139.459,119.322 C118.264,151.870 74.683,161.082 42.118,139.897 Z"/>
+<path fill-rule="evenodd"  fill="url(#PSgrad_1)"
+ d="M38.917,131.420 C22.761,142.453 0.695,143.364 0.695,143.364 C0.695,143.364 5.612,141.658 15.245,119.992 C26.483,94.718 59.741,117.200 38.917,131.420 Z"/>
+<path fill-rule="evenodd"  fill="url(#PSgrad_2)"
+ d="M45.905,105.109 C37.205,97.950 151.175,-19.082 150.806,2.769 C150.516,19.980 61.912,118.280 45.905,105.109 Z"/>
+</svg>

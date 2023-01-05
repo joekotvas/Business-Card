@@ -1,0 +1,81 @@
+#contact-card {
+    width: 500px;
+    max-width: 90%;
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    margin: auto;
+    font-size: 18px;
+    padding: 1em 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-shadow: 0 0 2px rgb(169, 169, 169);
+}
+#contact-card a {
+    text-decoration: none;
+}
+#contact-card #logo {
+    width: 70%;
+    transition: all .3s ease-in-out;
+}
+#contact-card #logo:hover {
+    width: 85%;
+}
+#contact-card #roles {
+    display: flex;
+    justify-content: center;
+    gap: .5em;
+    margin: -2.5em 0 1em 0;
+    padding-left: 6em;
+}
+#contact-card #roles a:before {
+    content: " ";
+    width: 100%;
+    height: 4px;
+    display: block;
+    position: relative;
+    top: 1em;
+    border-radius: 50%;
+    box-shadow: 0 5px 3px #f8d9c1;
+    background-color: transparent;
+    transition: all .3s;
+    pointer-events: none;
+}
+#contact-card #roles #missionary-link:before {
+    box-shadow: 0 5px 3px #f8d9c1;
+}
+#contact-card #roles #missionary-link:hover:before {
+    box-shadow: 0 5px 3px #c61c00;
+}
+#contact-card #roles #designer-link:before {
+    box-shadow: 0 5px 3px #c1f4ff;
+}
+#contact-card #roles #designer-link:hover:before {
+    box-shadow: 0 5px 3px #00acff ;
+}
+#contact-card #roles #developer-link:before {
+    box-shadow: 0 5px 3px #c1f7f8;
+}
+#contact-card #roles #developer-link:hover:before {
+    box-shadow: 0 5px 3px #00c1c3;
+}
+#contact-card #icons {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    height: 5vw;
+    max-height: 4em;
+}
+#contact-card #icons img {
+    transition: transform .5s ease-in-out;
+}
+#contact-card #icons img:hover {
+    transform: rotate(15deg);
+}
+#contact-card address a {
+    display: block;
+    color: #111;
+    font-style: normal;
+    margin: auto;
+}
